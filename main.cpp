@@ -24,7 +24,8 @@ public:
         edges.resize(n);
 
     }
-
+ 
+    
     void addEdge(int node1, int node2, char transition, int code) {
         edges[node1].push_back({transition, node2, code});
     }
